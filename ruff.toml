@@ -1,0 +1,28 @@
+# --- CONFIGURACIÓN GENERAL ---
+
+line-length = 100
+
+target-version = "py312"
+
+# --- CONFIGURACIÓN DEL LINTER (Búsqueda de errores) ---
+[lint]
+# Por defecto vienen 'E' (estilo) y 'F' (errores lógicos).
+# Aquí agregamos 'I' (para ordenar imports) y 'UP' (para modernizar código viejo).
+select = ["E", "F", "I", "UP"]
+
+# "ignore" son las reglas que quieres apagar porque te resultan molestas.
+ignore = []
+
+# Permite que Ruff elimine variables que declaraste pero no estás usando
+unfixable = []
+
+# --- CONFIGURACIÓN DEL FORMATTER (Estilo visual) ---
+[format]
+# ¿Prefieres comillas simples o dobles? ("double" o "single")
+quote-style = "double"
+
+# ¿Cómo quieres la indentación? ("space" o "tab")
+indent-style = "space"
+
+# ¿Dejar una coma al final de las listas de múltiples líneas? ("always" o "never")
+skip-magic-trailing-comma = "never"
