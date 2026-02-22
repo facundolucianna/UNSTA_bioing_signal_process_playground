@@ -24,5 +24,5 @@ quote-style = "double"
 # ¿Cómo quieres la indentación? ("space" o "tab")
 indent-style = "space"
 
-# ¿Dejar una coma al final de las listas de múltiples líneas? ("always" o "never")
-skip-magic-trailing-comma = "never"
+# ¿Dejar una coma al final de las listas de múltiples líneas?
+skip-magic-trailing-comma = false
